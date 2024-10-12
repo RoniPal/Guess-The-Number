@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <label class="logo"><a href="#" id="logo"><span>GUESS THE NUMBER</span></a></label>
+    </nav>
+
+    <main>
+
+        <div class="game">
+        
+        <div id="before">
+        <button id="st_btn">S T A R T</button>
+        </div>
+
+        <div id="after">
+
+            <div id="prompt">
+                <p id="entry">E n t e r &nbsp; Y o u r &nbsp; N u m b  e r</p>
+                <input type="number" name="number" id="entryNumber">
+                <input type="button" value="ENTER" id="enterBtn">
+                <input type="button" value="RESTART" id="restartBtn">
+            </div>
+
+        <p id="gameDes"></p>
+        </div>
+
+        <div id="end">
+            <p id="result">Total Guesses : <spsn id="numberG">0</spsn></p>
+            <p id="score">Your Score : <span id="numberS">0</span></p>
+        </div>
+        </div>
+
+    </main>
+    <script src="script.js"></script> 
+</body>
+</html>
+
